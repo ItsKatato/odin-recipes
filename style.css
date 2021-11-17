@@ -4,7 +4,7 @@ h1 {
     font-family: Roboto, sans-serif;
     text-align: center;
     font-size: 50px;
-    text-shadow: 2px 2px 7px black;
+    text-shadow: 2px 2px 7px rgb(71, 71, 71);
 }
 
 .recipes {
@@ -17,20 +17,20 @@ h1 {
 }
 
 a {
-    color: #DFDCE3;
+    color: black;
     text-decoration: none;
 }
 
 body {
-    color: #DFDCE3;
+    border-radius: 20px;
+    background-color: #f0f0f0de;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 2px 10px 10px rgb(14, 76, 146);
 }
 
 html {
-    background-image: url(images/triangleBackground.png);
-    background-size: cover;
-    background-repeat:no-repeat;
-}
-
-* {
-    background-color: #5c807a;
+    background: rgb(63, 94, 251);
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%) fixed;
 }
