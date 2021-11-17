@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@700&display=swap');
+
+h1 {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 7px black;
+}
+
+.recipes {
+    font-family: Lora, serif;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+a {
+    color: #DFDCE3;
+    text-decoration: none;
+}
+
+body {
+    color: #DFDCE3;
+}
+
+* {
+    background-color: #5c807a;
+}
