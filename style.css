@@ -4,7 +4,7 @@ h1 {
     font-family: Roboto, sans-serif;
     text-align: center;
     font-size: 50px;
-    text-shadow: 2px 2px 7px rgb(71, 71, 71);
+    text-shadow: 2px 2px 2px rgb(252,70,107);
 }
 
 .recipes {
@@ -21,16 +21,58 @@ a {
     text-decoration: none;
 }
 
-body {
-    border-radius: 20px;
-    background-color: #f0f0f0de;
-    width: 400px;
-    height: 200px;
-    margin: auto;
-    box-shadow: 2px 10px 10px rgb(14, 76, 146);
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(0deg, rgba(63,94,251,1), rgba(252,70,107,1)) 1;
 }
 
 html {
     background: rgb(63, 94, 251);
     background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%) fixed;
+    background-attachment: scroll;
+}
+
+html#home {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%) fixed;
+    background-attachment: fixed;
+}
+
+body#home{
+    border-radius: 20px;
+    background-color: #f0f0f0de;
+    width: 700px;
+    margin: auto;
+    height: 200px;
+    box-shadow: 2px 10px 10px rgb(14, 76, 146);
+}
+
+body {
+    height: auto;
+    border-radius: 20px;
+    background-color: #f0f0f0de;
+    width: 750px;
+    margin: auto;
+    box-shadow: 2px 10px 10px rgb(14, 76, 146);
+}
+
+h4,
+h3,
+ul,
+p {
+    text-align: center;
+    list-style-position: inside;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
