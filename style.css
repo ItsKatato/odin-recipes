@@ -25,6 +25,12 @@ body {
     color: #DFDCE3;
 }
 
+html {
+    background-image: url(images/triangleBackground.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
 * {
     background-color: #5c807a;
 }
